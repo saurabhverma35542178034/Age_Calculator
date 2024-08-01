@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="centered-container">
+        <h2>Calculate Age from Date of Birth</h2>
+        <b>Enter Date of Birth: <input type="date" id="DOB"></b>
+        <span id="message" style="color:rgb(12, 53, 111)"></span>
+        <br><br>
+        <button type="submit" onclick="ageCalculator()">Calculate Age</button>
+        <br><br>
+        <div class="result-boxes">
+            <div id="years" class="result-box">Years: <span id="year-result">0</span></div>
+            <div id="months" class="result-box">Months: <span id="month-result">0</span></div>
+            <div id="days" class="result-box">Days: <span id="day-result">0</span></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
